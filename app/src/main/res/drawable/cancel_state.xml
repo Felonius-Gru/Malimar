@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/rounded_edittext_states.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_focused="false" android:state_pressed="false" android:state_selected="false" android:drawable="@drawable/gray"/>
+    <item android:state_focused="false" android:state_pressed="false" android:state_selected="true" android:drawable="@drawable/norm"/>
+
+    <!-- Focused states -->
+    <item android:state_focused="true" android:state_pressed="false" android:state_selected="false" android:drawable="@drawable/norm"/>
+    <item android:state_focused="true" android:state_pressed="false" android:state_selected="true" android:drawable="@drawable/norm"/>
+    <item android:state_focused="true" android:state_pressed="true" android:drawable="@drawable/norm"/>
+    <item android:state_focused="false" android:state_pressed="true" android:drawable="@drawable/norm"/>
+
+
+
+</selector>

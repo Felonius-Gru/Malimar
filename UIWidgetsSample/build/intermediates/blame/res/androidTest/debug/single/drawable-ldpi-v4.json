@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/drawable-ldpi-v4/ic_action_search.png",
+        "source": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/bundles/debug/res/drawable-ldpi-v4/ic_action_search.png"
+    },
+    {
+        "merged": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/drawable-ldpi-v4/ic_launcher.png",
+        "source": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/bundles/debug/res/drawable-ldpi-v4/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/drawable-ldpi-v4/ic_launcher.png",
+        "source": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/bundles/debug/res/drawable-ldpi-v4/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/drawable-ldpi-v4/cover1.jpg",
+        "source": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/bundles/debug/res/drawable-ldpi-v4/cover1.jpg"
+    },
+    {
+        "merged": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/drawable-ldpi-v4/breadcrumb_icon.png",
+        "source": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/bundles/debug/res/drawable-ldpi-v4/breadcrumb_icon.png"
+    },
+    {
+        "merged": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/drawable-ldpi-v4/breadcrumb_icon.png",
+        "source": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/bundles/debug/res/drawable-ldpi-v4/breadcrumb_icon.png"
+    },
+    {
+        "merged": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/drawable-ldpi-v4/ic_action_search.png",
+        "source": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/bundles/debug/res/drawable-ldpi-v4/ic_action_search.png"
+    },
+    {
+        "merged": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/drawable-ldpi-v4/cover1.jpg",
+        "source": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/bundles/debug/res/drawable-ldpi-v4/cover1.jpg"
+    }
+]

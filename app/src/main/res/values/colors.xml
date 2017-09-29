@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="background_gradient_start">#000000</color>
+    <color name="background_gradient_end">#DDDDDD</color>
+    <color name="fastlane_background">#0096a6</color>
+    <color name="search_opaque">#ffaa3f</color>
+    <color name="detail_background">#0096a6</color>
+    <color name="fntsy_palatte_med_gray">#535353</color>
+    <color name="fntsy_palatte_dark_gray">#282828</color>
+    <color name="soft_opaque">#30000000</color>
+    <color name="img_soft_opaque">#30FF0000</color>
+    <color name="img_full_opaque">#00000000</color>
+    <color name="black_opaque">#AA000000</color>
+    <color name="black">#59000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="Black">#000000</color>
+    <color name="orange_transparent">#AAFADCA7</color>
+    <color name="orange">#FADCA7</color>
+    <color name="yellow">#EEFF41</color>
+    <color name="default_background">#272727</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="blackTrans">#90000000</color>
+    <color name="malimar_yellow">#d3d625</color>
+    <color name="malimar_blue">#02337f</color>
+    <color name="malimar_light_blue">#ccf9ff</color>
+    <color name="malimar_whitish">#f8fefa</color>
+    <color name="malimar_yellowish">#fffdb1</color>
+    <color name="black_transparent">#99000000</color>
+    <color name="transparent">#80000000</color>
+    <color name="red">#ee1b2e</color>
+    <color name="splash_bg">#02337f</color>
+    <color name="Highlight_Color">#FFCC33</color>
+    <color name="detail_bg">#0266a1</color>
+
+    <color name="detail_dark">#141414</color>
+
+
+
+
+
+</resources>

@@ -1,0 +1,78 @@
+<resources>
+
+    <style name="FullscreenTheme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">@style/ButtonBar</item>
+        <item name="metaButtonBarButtonStyle">@style/ButtonBarButton</item>
+    </style>
+
+    <!-- Backward-compatible version of ?android:attr/buttonBarStyle -->
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+
+    <!-- Backward-compatible version of ?android:attr/buttonBarButtonStyle -->
+    <style name="ButtonBarButton" />
+
+    <style name="Theme.Transparent" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+
+    <style name="Theme.Transparents" parent="android:Theme">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Widget.Leanback.GridItems.VerticalGridView">
+        <item name="android:clipToPadding">false</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:paddingLeft">?attr/browsePaddingLeft</item>
+        <item name="android:paddingRight">?attr/browsePaddingRight</item>
+        <item name="android:paddingBottom">@dimen/lb_vertical_grid_padding_bottom</item>
+        <item name="android:paddingTop">167dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="horizontalMargin">@dimen/lb_browse_item_horizontal_margin</item>
+        <item name="verticalMargin">@dimen/lb_browse_item_vertical_margin</item>
+        <item name="columnWidth">wrap_content</item>
+        <item name="focusOutFront">true</item>
+    </style>
+
+
+    <style name="customerTextstyle_1">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/malimar_light_blue</item>
+    </style>
+
+    <style name="customerTextstyle_2">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/malimar_whitish</item>
+    </style>
+
+    <style name="customerTextstyle_3">
+
+        <item name="android:textSize">26sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/malimar_yellowish</item>
+    </style>
+
+
+    <style name="leftTitleStyle">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/language_selection_state</item>
+    </style>
+
+
+</resources>

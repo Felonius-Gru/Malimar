@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.malimar.video.tv"
+    tools:overrideLibrary="android.support.v17.leanback">
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="false" />
+
+    <uses-feature
+        android:name="android.software.leanback"
+        android:required="true" />
+
+    <application
+        android:name="com.malimar.video.tv.app.FightNetwork"
+        android:allowBackup="true"
+        android:banner="@drawable/malimar_icon_320"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <!-- Main Activity -->
+
+        <activity
+            android:name="com.malimar.video.tv.ui.SplashActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.Leanback">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+
+        <activity
+            android:name="com.malimar.video.tv.ui.Launcher"
+            android:exported="true"
+            android:icon="@drawable/app_icon"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name="com.malimar.video.tv.ui.Content"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+
+
+        <activity
+            android:name="com.malimar.video.tv.ui.SearchActivity"
+            android:exported="true" />
+
+        <activity
+            android:name="com.malimar.video.tv.ui.CustomerSettingActivity"
+            android:exported="true"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.Transparent" />
+
+        <activity
+            android:name="com.malimar.video.tv.ui.SpeedTesterActivity"
+            android:exported="true"
+            android:screenOrientation="landscape" />
+
+        <activity
+            android:name="com.malimar.video.tv.ui.ChooseLanguageActivity"
+            android:exported="true"
+            android:screenOrientation="landscape" />
+
+
+        <activity
+            android:name="com.malimar.video.tv.ui.GridViewActivity"
+            android:exported="true" />
+
+
+        <activity
+            android:name="com.malimar.video.tv.ui.BrowseErrorActivity"
+            android:exported="true" />
+
+        <activity
+            android:name="com.malimar.video.tv.exoplayer.PlayerActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="com.google.android.exoplayer.demo.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:scheme="content" />
+                <data android:scheme="asset" />
+                <data android:scheme="file" />
+            </intent-filter>
+        </activity>
+
+
+        <!-- Provides search suggestions for keywords against video meta data. -->
+
+
+        <receiver android:name="com.amazon.device.iap.ResponseReceiver">
+            <intent-filter>
+                <action
+                    android:name="com.amazon.inapp.purchasing.NOTIFY"
+                    android:permission="com.amazon.inapp.purchasing.Permission.NOTIFY" />
+            </intent-filter>
+        </receiver>
+
+
+        <receiver
+            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.analytics.AnalyticsService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <service android:name="com.google.android.gms.analytics.CampaignTrackingService" />
+
+        <receiver
+            android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <!--<service-->
+        <!--android:name=".recommendation.UpdateRecommendationsService"-->
+        <!--android:enabled="true" />-->
+    </application>
+
+
+</manifest>

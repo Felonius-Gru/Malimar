@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-com.d53e.rbeal.fightsportsnetwork"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <io.vov.vitamio.widget.CenterLayout
+        android:id="@+id/video_view_ly"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical">
+
+        <io.vov.vitamio.widget.VideoView
+            android:id="@+id/buffer"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </io.vov.vitamio.widget.CenterLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal">
+
+        <com.malimar.video.tv.ui.ProgressWheel
+            android:id="@+id/probar"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:barColor="#00b900"
+            app:barLength="70dp"
+            app:barWidth="10dp"
+            app:rimColor="#5000b900"
+            app:rimWidth="10dp"
+            app:spinSpeed="3dp"
+            app:textSize="15dp" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,186 @@
+[
+    {
+        "merged": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/carousel_movies_and_tv.xml",
+        "source": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/carousel_movies_and_tv.xml"
+    },
+    {
+        "merged": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/failed_loading_data.xml",
+        "source": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/failed_loading_data.xml"
+    },
+    {
+        "merged": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/keyboard_activity.xml",
+        "source": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/keyboard_activity.xml"
+    },
+    {
+        "merged": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/carousel_activity.xml",
+        "source": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/carousel_activity.xml"
+    },
+    {
+        "merged": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/details_action_view.xml",
+        "source": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/details_action_view.xml"
+    },
+    {
+        "merged": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/carousel_banner.xml",
+        "source": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/carousel_banner.xml"
+    },
+    {
+        "merged": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/view_home.xml",
+        "source": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/view_home.xml"
+    },
+    {
+        "merged": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/view_home.xml",
+        "source": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/view_home.xml"
+    },
+    {
+        "merged": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/details_menu_list_fragment.xml",
+        "source": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/details_menu_list_fragment.xml"
+    },
+    {
+        "merged": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/carousel_movies_and_tv_item.xml",
+        "source": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/carousel_movies_and_tv_item.xml"
+    },
+    {
+        "merged": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/carousel_movies_and_tv.xml",
+        "source": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/carousel_movies_and_tv.xml"
+    },
+    {
+        "merged": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/activity_main.xml",
+        "source": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/details_base_activity.xml",
+        "source": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/details_base_activity.xml"
+    },
+    {
+        "merged": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/details_extra_fragment.xml",
+        "source": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/details_extra_fragment.xml"
+    },
+    {
+        "merged": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/activity_main.xml",
+        "source": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/fragment_carousel_list.xml",
+        "source": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/fragment_carousel_list.xml"
+    },
+    {
+        "merged": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/carousel_activity.xml",
+        "source": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/carousel_activity.xml"
+    },
+    {
+        "merged": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/carousel_ownership_indicator.xml",
+        "source": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/carousel_ownership_indicator.xml"
+    },
+    {
+        "merged": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/bread_crumb_ribbon_layout.xml",
+        "source": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/bread_crumb_ribbon_layout.xml"
+    },
+    {
+        "merged": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/details_base_activity.xml",
+        "source": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/details_base_activity.xml"
+    },
+    {
+        "merged": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/carousel_ownership_indicator.xml",
+        "source": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/carousel_ownership_indicator.xml"
+    },
+    {
+        "merged": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/screen_spinner.xml",
+        "source": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/screen_spinner.xml"
+    },
+    {
+        "merged": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/carousel_item.xml",
+        "source": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/carousel_item.xml"
+    },
+    {
+        "merged": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/carousel_banner.xml",
+        "source": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/carousel_banner.xml"
+    },
+    {
+        "merged": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/bread_crumb_ribbon_layout.xml",
+        "source": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/bread_crumb_ribbon_layout.xml"
+    },
+    {
+        "merged": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/keyboard_activity.xml",
+        "source": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/keyboard_activity.xml"
+    },
+    {
+        "merged": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/carousel_movies_and_tv_details.xml",
+        "source": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/carousel_movies_and_tv_details.xml"
+    },
+    {
+        "merged": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/details_menu_list_fragment.xml",
+        "source": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/details_menu_list_fragment.xml"
+    },
+    {
+        "merged": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/carousel_progress.xml",
+        "source": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/carousel_progress.xml"
+    },
+    {
+        "merged": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/sample_mini_details_layout.xml",
+        "source": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/sample_mini_details_layout.xml"
+    },
+    {
+        "merged": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/carousel_progress.xml",
+        "source": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/carousel_progress.xml"
+    },
+    {
+        "merged": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/carousel_movies_and_tv_details.xml",
+        "source": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/carousel_movies_and_tv_details.xml"
+    },
+    {
+        "merged": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/details_overview_fragment.xml",
+        "source": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/details_overview_fragment.xml"
+    },
+    {
+        "merged": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/sample_mini_details_layout.xml",
+        "source": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/sample_mini_details_layout.xml"
+    },
+    {
+        "merged": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/details_overview_fragment.xml",
+        "source": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/details_overview_fragment.xml"
+    },
+    {
+        "merged": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/carousel_movies_and_tv_item.xml",
+        "source": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/carousel_movies_and_tv_item.xml"
+    },
+    {
+        "merged": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/main_option_item.xml",
+        "source": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/main_option_item.xml"
+    },
+    {
+        "merged": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/main_option_item.xml",
+        "source": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/main_option_item.xml"
+    },
+    {
+        "merged": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/category_list_screen.xml",
+        "source": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/category_list_screen.xml"
+    },
+    {
+        "merged": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/category_list_screen.xml",
+        "source": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/category_list_screen.xml"
+    },
+    {
+        "merged": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/failed_loading_data.xml",
+        "source": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/failed_loading_data.xml"
+    },
+    {
+        "merged": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/fragment_carousel_list.xml",
+        "source": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/fragment_carousel_list.xml"
+    },
+    {
+        "merged": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/screen_spinner.xml",
+        "source": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/screen_spinner.xml"
+    },
+    {
+        "merged": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/details_action_view.xml",
+        "source": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/details_action_view.xml"
+    },
+    {
+        "merged": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/details_extra_fragment.xml",
+        "source": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/details_extra_fragment.xml"
+    },
+    {
+        "merged": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/layout/carousel_item.xml",
+        "source": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/bundles/debug/res/layout/carousel_item.xml"
+    }
+]

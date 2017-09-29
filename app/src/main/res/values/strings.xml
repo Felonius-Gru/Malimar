@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/tools">
+
+    <string name="app_name">Malimar</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="related_movies">Related Videos</string>
+    <string name="grid_view">Grid View</string>
+    <string name="error_fragment">Error Fragment</string>
+    <string name="personal_settings">Personal Settings</string>
+    <string name="video_error_media_load_timeout">Media loading timed out</string>
+    <string name="video_error_server_inaccessible">Media server was not reachable</string>
+    <string name="video_error_unknown_error">Failed to load video</string>
+    <string name="error_fragment_message">An error occurred</string>
+    <string name="cms_uri"><![CDATA[http://vcms.fantasysportsnetwork.com/videocms/rest-service.php?action=getvods&property=tfn&platform=roku&testip=68.171.130.103&show_prefix=tna&paid_type=yes]]></string>
+    <string name="movie">Movie</string>
+    <string name="should_start">\"should start\"</string>
+    <string name="title_activity_local_vid">LocalVid</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="testIpArg"><![CDATA[&testip=68.171.130.103]]></string>
+    <string name="json_error">Value [] of type org.json.JSONArray cannot be converted to JSONObject</string>
+    <string name="view">View</string>
+    <string name="global_search">GLOBALSEARCH</string>
+    <string name="you_may_like">You may like...</string>
+    <string name="search_results">Search Results</string>
+    <string name="grid_title">Fight Network</string>
+    <plurals name="search_results">
+        <item quantity="one">%1$d result for \"%2$s\": </item>
+        <item quantity="other">%1$d results for \"%2$s\": </item>
+    </plurals>
+    <string name="search_label">Fight Network</string>
+    <string name="search_hint">Search for videos</string>
+    <string name="settings_description">Fight Network</string>
+
+    <string name="buy_magazine">Buy Magazine Subscription</string>
+    <string name="subscription_disabled">Subscription Disabled</string>
+    <string name="subscription_enabled">Subscription Enabled</string>
+
+
+    <string name="error_drm_not_supported">Protected content not supported on API levels below 18</string>
+
+    <string name="error_drm_unsupported_scheme">This device does not support the required DRM scheme</string>
+
+    <string name="error_drm_unknown">An unknown DRM error occurred</string>
+
+
+    <string name="error_querying_decoders">Unable to query device decoders></string>
+
+    <string name="error_instantiating_decoder">Unable to instantiate decoder <xliff:g id="decoder_name">%1$s</xliff:g></string>
+
+
+    <string name="Pleaseenteryourcode">Please enter your code</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="dontHave_Subscription">You don\'t have active subscription at the moment, please activate your subscription from iOS / Android application and enter the Code again.</string>
+    <string name="OK">OK</string>
+    <string name="Cancel">CANCEL</string>
+    <string name="Please_enterthevalid_code">Please enter the valid code</string>
+    <string name="WatchNow">Watch Now</string>
+    <string name="GoBack">Go Back</string>
+    <string name="favorite">Mark Favorite</string>
+    <string name="unfavorite">Unfavourite</string>
+    <string name="myfavorite">My Favorites</string>
+
+    <string name="Please_Upgrade">Please upgrade to the latest version</string>
+    <string name="LiveTV">Live TV</string>
+    <string name="AlertMsg">On the app or site in which you first paid, under My Account, you will see a Generate Code option.</string>
+    <string name="You_are_not_authorized">You are not authorized</string>
+    <string name="video">Video</string>
+
+    <string name="audio">Audio</string>
+
+    <string name="text">Text</string>
+
+    <string name="retry">Retry</string>
+
+    <string name="selection_disabled">Disabled</string>
+
+    <string name="selection_default">Default</string>
+
+    <string name="selection_default_none">Default (none)</string>
+
+    <string name="unexpected_intent_action">Unexpected intent action: <xliff:g id="action">%1$s</xliff:g></string>
+
+    <string name="enable_random_adaptation">Enable random adaptation</string>
+
+
+    <string name="error_unsupported_video">Media includes video tracks, but none are playable by this device</string>
+
+    <string name="error_unsupported_audio">Media includes audio tracks, but none are playable by this device</string>
+
+    <string name="storage_permission_denied">Permission to access storage was denied</string>
+
+    <string name="sample_list_load_error">One or more sample lists failed to load</string>
+
+    <string name="error_no_decoder">This device does not provide a decoder for <xliff:g id="mime_type">%1$s</xliff:g></string>
+
+    <string name="error_no_secure_decoder">This device does not provide a secure decoder for <xliff:g id="mime_type">%1$s</xliff:g></string>
+    <string name="problem_occurred">problem occurred</string>
+
+    <string name="not_authorized">Error S: This Fire TV is not authorized to access this premium item.</string>
+    <string name="please_activate">Please activate your Fire TV at www.malimar.tv/fire OR call customer service at 1-619-940-5522 and provide the Fire TV serial number \n below:</string>
+    <string name="automatically_update">This screen will automatically update as soon as your activation completes.</string>
+    <string name="choose_language">Please choose one of the following</string>
+    <string name="Error_X">Error X: This Fire TV is not allowed to access mature videos.</string>
+    <string name="active_to_Watch_MatureVideos">Please call customer service at 1-619-940-5522 today to allow this Fire TV device to access mature videos.</string>
+    <string name="Error_Player">Error 6: Sorry, There is an issue playing this item. If service is not restored, please call 1-619-940-5522  or e-mail: support@malimar.tv  to report this problem.</string>
+    <string name="settings">Settings</string>
+    <string name="Are_you_still_there">Are you still there?</string>
+    <string name="Press_Yes_toContinue">Press "Yes" to continue watching.</string>
+    <string name="Yes">Yes</string>
+    <string name="speedTest">Speed Test</string>
+
+    <string name="your_serial_number">Serial Number</string>
+
+
+</resources>

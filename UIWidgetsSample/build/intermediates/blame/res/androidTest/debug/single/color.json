@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/color/bottom_preference_text.xml",
+        "source": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/bundles/debug/res/color/bottom_preference_text.xml"
+    },
+    {
+        "merged": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/color/tombstone_text.xml",
+        "source": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/bundles/debug/res/color/tombstone_text.xml"
+    },
+    {
+        "merged": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/color/details_option_text_color.xml",
+        "source": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/bundles/debug/res/color/details_option_text_color.xml"
+    },
+    {
+        "merged": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/color/details_option_text_color_selected.xml",
+        "source": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/bundles/debug/res/color/details_option_text_color_selected.xml"
+    },
+    {
+        "merged": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/color/expanded_details_title.xml",
+        "source": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/bundles/debug/res/color/expanded_details_title.xml"
+    },
+    {
+        "merged": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/color/listview_selector.xml",
+        "source": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/bundles/debug/res/color/listview_selector.xml"
+    },
+    {
+        "merged": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/color/listview_selector.xml",
+        "source": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/bundles/debug/res/color/listview_selector.xml"
+    },
+    {
+        "merged": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/color/details_option_text_color_selected.xml",
+        "source": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/bundles/debug/res/color/details_option_text_color_selected.xml"
+    },
+    {
+        "merged": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/color/expanded_details_title.xml",
+        "source": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/bundles/debug/res/color/expanded_details_title.xml"
+    },
+    {
+        "merged": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/color/top_preference_text.xml",
+        "source": "/Users/jacky/Downloads/malimar-firetv-android-master/UIWidgetsSample/build/intermediates/bundles/debug/res/color/top_preference_text.xml"
+    },
+    {
+        "merged": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/color/bottom_preference_text.xml",
+        "source": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/bundles/debug/res/color/bottom_preference_text.xml"
+    },
+    {
+        "merged": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/color/tombstone_text.xml",
+        "source": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/bundles/debug/res/color/tombstone_text.xml"
+    },
+    {
+        "merged": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/color/top_preference_text.xml",
+        "source": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/bundles/debug/res/color/top_preference_text.xml"
+    },
+    {
+        "merged": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/res/merged/androidTest/debug/color/details_option_text_color.xml",
+        "source": "/Users/jacky/AndroidStudioProjects/malimar/UIWidgetsSample/build/intermediates/bundles/debug/res/color/details_option_text_color.xml"
+    }
+]

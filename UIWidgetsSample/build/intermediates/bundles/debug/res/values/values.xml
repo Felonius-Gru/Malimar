@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/apk/res/com.amazon.asb.library">
+    <attr format="reference|color" name="bottomColor"/>
+    <attr format="string" name="font"/>
+    <attr format="integer" name="gradientType">
+        <enum name="noGradient" value="1"/>
+        <enum name="eachLine" value="2"/>
+        <enum name="allText" value="3"/>
+    </attr>
+    <attr format="reference" name="rollupViewStyle"/>
+    <attr format="float" name="xLineOffset"/>
+    <color name="banner_title_shadow">#725F3C00</color>
+    <color name="bg_grad_end">#000000</color>
+    <color name="bg_grad_start">#4D4D4D</color>
+    <color name="carousel_bg_grad_end">#85000000</color>
+    <color name="carousel_bg_grad_start">#85292929</color>
+    <color name="cover_banner_text">#FFFFFF</color>
+    <color name="cover_banner_title">#FFFFFF</color>
+    <color name="dialog_text">#DADADA</color>
+    <color name="divider_color">#151515</color>
+    <color name="listview_background">#232323</color>
+    <color name="listview_title">#FF626262</color>
+    <color name="orange_highlight">#F7941D</color>
+    <color name="ownership_banner_text">#FFFFFF</color>
+    <color name="preference_text_selected">#F7941D</color>
+    <color name="preference_text_selected_bottom">#F7941D</color>
+    <color name="preference_text_selected_top">#F8BB49</color>
+    <color name="preference_text_unselected">#FFFFFF</color>
+    <color name="preference_text_unselected_bottom">#DADADA</color>
+    <color name="preference_text_unselected_top">#DADADA</color>
+    <color name="progress_bar_total">#FF626262</color>
+    <color name="progress_bar_watched">#AAAAAA</color>
+    <color name="right_pane">#232323</color>
+    <color name="title_color">@android:color/holo_blue_light</color>
+    <color name="tombstone_text_focused">#352a08</color>
+    <color name="tombstone_text_unfocused">#FFFFFF</color>
+    <declare-styleable name="CarouselView"><attr format="float" name="tap_scroll_duration"/><attr format="boolean" name="enable_long_scroll"/><attr format="float" name="long_scroll_speed"/><attr format="float" name="long_scroll_transition_duration"/><attr format="float" name="long_scroll_threshold"/><attr format="dimension" name="spacings"/><attr format="dimension" name="minSpacing"/><attr format="float" name="selected_item_scale"/><attr format="float" name="unselected_item_scale"/><attr format="integer" name="selection_alignment">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="flex" value="2"/>
+        </attr><attr format="dimension" name="selection_offset"/><attr format="dimension" name="list_start_padding"/><attr format="dimension" name="list_end_padding"/><attr format="float" name="long_scroll_selector_target_offset"/><attr format="boolean" name="resizing_children"/><attr format="boolean" name="jumping_allowed"/><attr format="float" name="scale_duration"/><attr format="boolean" name="scale_animated"/><attr format="boolean" name="constant_spacing"/><attr format="boolean" name="scale_view_id"/></declare-styleable>
+    <declare-styleable name="ConditionalFocusListView"><attr format="dimension" name="selected_position_from_top"/></declare-styleable>
+    <declare-styleable name="FontableButton"><attr name="font"/></declare-styleable>
+    <declare-styleable name="FontableTextView"><attr name="font"/></declare-styleable>
+    <declare-styleable name="GradientText"><attr name="font"/><attr name="gradientType"/><attr name="bottomColor"/><attr name="xLineOffset"/></declare-styleable>
+    <declare-styleable name="RollupView"><attr format="dimension" name="collapsed_spacing"/><attr format="dimension" name="revealed_spacing"/><attr format="dimension" name="expanded_spacing"/><attr format="integer" name="stack_size"/><attr format="integer" name="visible_items"/></declare-styleable>
+    <declare-styleable name="Theme"><attr format="reference" name="preferenceScreenStyle"/><attr format="reference" name="preferenceFragmentStyle"/><attr format="reference" name="preferenceCategoryStyle"/><attr format="reference" name="preferenceStyle"/><attr format="reference" name="preferenceInformationStyle"/><attr format="reference" name="checkBoxPreferenceStyle"/><attr format="reference" name="yesNoPreferenceStyle"/><attr format="reference" name="dialogPreferenceStyle"/><attr format="reference" name="editTextPreferenceStyle"/><attr format="reference" name="ringtonePreferenceStyle"/><attr format="reference" name="preferenceLayoutChild"/><attr format="reference" name="preferencePanelStyle"/><attr format="reference" name="switchPreferenceStyle"/><attr format="reference" name="preferenceFrameLayoutStyle"/></declare-styleable>
+    <dimen name="breadcrumb_number_portion_center_textview_width">12.0dp</dimen>
+    <dimen name="breadcrumb_number_portion_left_margin">-3.0dp</dimen>
+    <dimen name="breadcrumb_number_portion_left_textview_width">34.5dp</dimen>
+    <dimen name="breadcrumb_number_portion_right_textview_width">39.0dp</dimen>
+    <dimen name="breadcrumb_number_portion_text_size">15.0sp</dimen>
+    <dimen name="carousel_cover_banner_height">57dp</dimen>
+    <dimen name="carousel_cover_max_height">232.5dp</dimen>
+    <dimen name="carousel_cover_max_width">375.0dp</dimen>
+    <dimen name="carousel_cover_target_height">240dp</dimen>
+    <dimen name="carousel_cover_unselected_height">177.0dp</dimen>
+    <dimen name="carousel_margin_top_selected">69.0dp</dimen>
+    <dimen name="carousel_margin_top_unselected">131.25dp</dimen>
+    <dimen name="carousel_top_margin">22.5dp</dimen>
+    <dimen name="detail_cover_height">330dp</dimen>
+    <dimen name="detail_cover_width">230dp</dimen>
+    <dimen name="detail_menu_options_right_padding">15.0dp</dimen>
+    <dimen name="detail_menu_options_width">195.0dp</dimen>
+    <dimen name="detail_menu_top_margin">15.0dp</dimen>
+    <dimen name="detail_screen_side_padding">52.5dp</dimen>
+    <dimen name="detail_screen_top_padding">22.5dp</dimen>
+    <dimen name="hero_image_max_height">412.5dp</dimen>
+    <dimen name="hero_image_max_width">412.5dp</dimen>
+    <dimen name="hero_large_height">289.5dp</dimen>
+    <dimen name="hero_large_width">372.75dp</dimen>
+    <dimen name="hero_offset_x">0.0dp</dimen>
+    <dimen name="hero_offset_y">-52.5dp</dimen>
+    <dimen name="hero_small_height">202.5dp</dimen>
+    <dimen name="hero_small_width">351dp</dimen>
+    <dimen name="item_carousel_left_position">95dp</dimen>
+    <dimen name="item_view_poster_preview_height">168dp</dimen>
+    <dimen name="left_nav_expanded_width">204.75dip</dimen>
+    <dimen name="menu_item_height">206dp</dimen>
+    <dimen name="menu_item_width">160dp</dimen>
+    <dimen name="movies_tv_fragment_selected_list_top_margin">150.75dp</dimen>
+    <dimen name="ownership_text_size_large">14.5sp</dimen>
+    <dimen name="ownership_text_size_med">12.0sp</dimen>
+    <dimen name="ownership_text_size_small">7.0sp</dimen>
+    <dimen name="play_button_padding">2.0dp</dimen>
+    <dimen name="preference_breadcrumb_paddingLeft">0dp</dimen>
+    <dimen name="preference_breadcrumb_paddingRight">0dp</dimen>
+    <dimen name="preference_child_padding_side">16dip</dimen>
+    <dimen name="preference_fragment_padding_bottom">0dp</dimen>
+    <dimen name="preference_fragment_padding_side">16dp</dimen>
+    <dimen name="preference_item_padding_inner">8dip</dimen>
+    <dimen name="preference_item_padding_side">8dip</dimen>
+    <dimen name="preference_screen_header_padding_side">16dip</dimen>
+    <dimen name="preference_screen_header_vertical_padding">0dp</dimen>
+    <dimen name="preference_scroll_indicator_distance">10dp</dimen>
+    <dimen name="preference_title_padding_bottom">2dip</dimen>
+    <dimen name="preference_title_padding_left">5dip</dimen>
+    <dimen name="preference_title_padding_right">5dip</dimen>
+    <dimen name="preference_title_padding_top">2dip</dimen>
+    <dimen name="preference_widget_width">48dp</dimen>
+    <dimen name="rating_count_padding">1.dp</dimen>
+    <dimen name="rating_padding">2.25dp</dimen>
+    <dimen name="settings_double_pane_width">479dp</dimen>
+    <dimen name="settings_half_pane_width">239.5dp</dimen>
+    <dimen name="settings_item_card_width">319dp</dimen>
+    <dimen name="settings_item_height">240dp</dimen>
+    <dimen name="settings_item_width">160dp</dimen>
+    <dimen name="settings_title_size">25sp</dimen>
+    <dimen name="star_rating_height">16.6dp</dimen>
+    <dimen name="tombstone_height">154.5dp</dimen>
+    <dimen name="tombstone_margin_left_unselected">75.0dp</dimen>
+    <dimen name="tombstone_margin_top">11.25dp</dimen>
+    <dimen name="tombstone_margin_top_selected">15.0dp</dimen>
+    <dimen name="tombstone_width">107.25dp</dimen>
+    <dimen name="tv_safe_padding">22.5dp</dimen>
+    <dimen ns1:anno="13px" name="ux_gutter_1en">10.0dp</dimen>
+    <dimen ns1:anno="6px" name="ux_gutter_hairline">5.0dp</dimen>
+    <dimen ns1:anno="10px" name="ux_gutter_narrow">8.0dp</dimen>
+    <dimen ns1:anno="20px" name="ux_gutter_wide">15.0dp</dimen>
+    <dimen ns1:anno="20px" name="ux_leading_Large">11.0dp</dimen>
+    <dimen ns1:anno="14px" name="ux_leading_Medium">7.0dp</dimen>
+    <dimen ns1:anno="10px" name="ux_leading_Small">4.0dp</dimen>
+    <dimen ns1:anno="25px" name="ux_leading_XLarge">15.0dp</dimen>
+    <dimen name="zoom_1d_carousel_selection_offset">99.0dp</dimen>
+    <dimen name="zoom_list_y_offset">68.25dp</dimen>
+    <dimen name="zoom_list_y_offset_tombstone">15dp</dimen>
+    <item name="carousel_cover_holder" type="id"/>
+    <item name="carousel_nestedlist_item" type="id"/>
+    <item name="carousel_view_debug_color" type="id"/>
+    <item name="carousel_view_item_tag" type="id"/>
+    <item name="carousel_view_view_type" type="id"/>
+    <integer name="bread_crumb_icon_flyout_duration_ms">300</integer>
+    <integer name="category_list_transition_duration_ms">300</integer>
+    <integer name="preference_fragment_scrollbarStyle">0x02000000</integer>
+    <integer name="preference_screen_header_scrollbarStyle">0x02000000</integer>
+    <integer name="preferences_left_pane_weight">4</integer>
+    <integer name="preferences_right_pane_weight">6</integer>
+    <integer name="selected_carousel_item_offset_adjustment_hero">65</integer>
+    <integer name="selected_carousel_item_offset_adjustment_tombstone">10</integer>
+    <integer name="zoom_list_y_offset_hero">91</integer>
+    <integer name="zoom_list_y_offset_tombstone">0</integer>
+    <string name="add_to_watchlist">Add to Watchlist</string>
+    <string name="app_name">Sample Application</string>
+    <item format="float" name="carousel_unselected_item_scale" type="string">0.87096</item>
+    <string name="category_carousel_samples">CAROUSEL SAMPLES</string>
+    <string name="category_detail_samples">DETAIL SAMPLE</string>
+    <string name="category_keyboard_samples">KEYBOARD SAMPLE</string>
+    <string name="category_stacks_samples">STACKS SAMPLE</string>
+    <string name="content_description_category_icon">Category Icon</string>
+    <string name="content_description_progress_bar">progress bar</string>
+    <string name="cover_content_description">Title Cover</string>
+    <string name="detail_num_reviews">(%s)</string>
+    <string name="director">Directed by</string>
+    <string name="extra_content">Extra Fragment!</string>
+    <string name="extra_tab">Extra</string>
+    <string name="failed_loading">Unable to contact our servers. Please try again.</string>
+    <string name="input_extra_backLabel">backLabel</string>
+    <string name="input_extra_description">description</string>
+    <string name="input_extra_fieldCount">fieldCount</string>
+    <string name="input_extra_fieldNumber">fieldNumber</string>
+    <string name="input_extra_hint">hint</string>
+    <string name="input_extra_label">label</string>
+    <string name="input_extra_nextLabel">nextLabel</string>
+    <string name="input_extra_type">type</string>
+    <string name="input_extra_type_card">card</string>
+    <string name="input_extra_type_email">email</string>
+    <string name="input_extra_type_wifi">wifi</string>
+    <string name="kbsample_button_label">Edit Values</string>
+    <string name="kbsample_description">This form is just to illustrate how you can use normal EditText widgets to get the "wizard" feelings on ASB.</string>
+    <string name="kbsample_field_email_description">This email might be used as yout login as well.</string>
+    <string name="kbsample_field_email_hint">Amazon email</string>
+    <string name="kbsample_field_email_label">Email:</string>
+    <string name="kbsample_field_name_backLabel">Cancel</string>
+    <string name="kbsample_field_name_description">This is the name that will be shown on the entire Amazon site.</string>
+    <string name="kbsample_field_name_hint">User name</string>
+    <string name="kbsample_field_name_label">Name:</string>
+    <string name="kbsample_field_password_description"/>
+    <string name="kbsample_field_password_hint"/>
+    <string name="kbsample_field_password_label">Password:</string>
+    <string name="kbsample_field_phone_description"/>
+    <string name="kbsample_field_phone_hint"/>
+    <string name="kbsample_field_phone_label">Phone:</string>
+    <string name="kbsample_field_pin_description"/>
+    <string name="kbsample_field_pin_hint"/>
+    <string name="kbsample_field_pin_label">PIN:</string>
+    <string name="kbsample_field_pin_nextLabel">SAVE</string>
+    <string name="kbsample_title">Input Form Sample</string>
+    <string name="menu_carousel_sample">Carousel Example</string>
+    <string name="menu_details_sample">Details Page Example</string>
+    <string name="menu_keyboard_input_sample">Keyboard for Input Fields Example</string>
+    <string name="menu_keyboard_webview_sample">Keyboard for WebView Example</string>
+    <string name="menu_keyboard_wizard_sample">Wizard Input Example</string>
+    <string name="menu_paging_sample">Paging Carousel Example</string>
+    <string name="menu_stacks_first_sample">First Stack Test</string>
+    <string name="menu_stacks_fourth_sample">Fourth Stack Test</string>
+    <string name="menu_stacks_second_sample">Second Stack Test</string>
+    <string name="menu_stacks_third_sample">Third Normal Item</string>
+    <string name="more_info">More Info</string>
+    <string name="overview_content">Overview Fragment!</string>
+    <string name="overview_tab">Overview</string>
+    <string name="ownership_text_movies_own">YOU OWN THIS TITLE</string>
+    <string name="ownership_text_movies_rent">YOU RENTED THIS TITLE</string>
+    <string name="ownership_text_tv_own_season">YOU OWN THIS SEASON</string>
+    <string name="pipe">|</string>
+    <string name="play_button_content_description">Play Button</string>
+    <string name="poster_description">poster</string>
+    <string name="press_to">Press</string>
+    <string name="retry">Retry</string>
+    <string name="starring">Starring</string>
+    <string name="title_ribbon_num_titles_format_string">"%1$3d | %2$3d"</string>
+    <string name="video_quality_description">Quality of the video</string>
+    <string name="video_rating_description">Rating for the video</string>
+    <style name="ActivityAnimation">
+        <item name="android:activityOpenEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:activityOpenExitAnimation">@android:anim/fade_out</item>
+        <item name="android:activityCloseEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:activityCloseExitAnimation">@android:anim/fade_out</item>
+    </style>
+    <style name="AppTheme" parent="android:Theme.Light"/>
+    <style name="DialogListView" parent="@android:style/Widget.ListView">
+        <item name="android:drawSelectorOnTop">true</item>
+        <item name="android:listSelector">@color/listview_selector</item>
+
+    </style>
+    <style name="LauncherAppTheme">
+        <item name="android:windowAnimationStyle">@style/ActivityAnimation</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@drawable/activity_background</item>
+        <item name="android:listDivider">@null</item>
+    </style>
+    <style name="PreferenceListView" parent="@android:style/Widget.ListView">
+        <item name="android:listSelector">@android:color/transparent</item>
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:listPreferredItemHeight">12dp</item>
+        <item name="android:background">@color/listview_background</item>
+        <item name="android:divider">@color/divider_color</item>
+        <item name="android:dividerHeight">1dip</item>
+        <item name="android:scrollbarStyle">@integer/preference_screen_header_scrollbarStyle</item>
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:drawSelectorOnTop">true</item>
+    </style>
+    <style name="SetupTitle">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">@dimen/settings_title_size</item>
+        <item name="android:textColor">@color/title_color</item>
+        <item name="android:clickable">false</item>
+        <item name="android:longClickable">false</item>
+    </style>
+    <style name="Theme.DoublePaneSettingsCard" parent="@android:style/Theme.Translucent">
+        <item name="android:textSize">12sp</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Theme.SinglePaneSettingsCard" parent="@android:style/Theme.Translucent">
+        <item name="android:textSize">12sp</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Widget"/>
+    <style name="Widget.CarouselView" parent="@android:style/Widget">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="Widget.ItemCarouselView" parent="Widget.CarouselView">
+        <!--Not sure where the 2dp padding is coming from, but remove it-->
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@drawable/list_background_selector</item>
+        <item name="spacings">15dp</item>
+        <item name="long_scroll_speed">1400</item>
+        <item name="scale_animated">true</item>
+        <item name="selection_alignment">left</item>
+        <item name="selection_offset">@dimen/item_carousel_left_position</item>
+        <item name="selected_item_scale">1</item>
+    </style>
+    <style name="Widget.ItemCarouselView_Details_MoreLikeThis" parent="Widget.ItemCarouselView">
+        <item name="selection_offset">0dp</item>
+        <item name="spacings">7.5dp</item>
+    </style>
+    <style name="Widget.ItemCarouselView_Details_MoreLikeThis.Popup" parent="Widget.ItemCarouselView">
+        <item name="android:background">@null</item>
+    </style>
+    <style name="Widget.ItemCarouselView_MoreLikeThis" parent="Widget.ItemCarouselView">
+        <item name="android:layout_height">@dimen/item_view_poster_preview_height</item>
+        <item name="android:background">@drawable/carousel_bg</item>
+        <!-- Note: This is not currently respected -->
+        <item name="android:gravity">top</item>
+        <item name="spacings">4.5dp</item>
+        <item name="list_start_padding">0dp</item>
+        <item name="list_end_padding">0dp</item>
+    </style>
+    <style name="Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/star_rating</item>
+        <item name="android:indeterminateDrawable">@drawable/star_rating</item>
+    </style>
+    <style name="borderless_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+    <style name="coverBanner"/>
+    <style name="coverBanner.Text">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/cover_banner_text</item>
+        <item name="android:shadowColor">@color/banner_title_shadow</item>
+        <item name="android:shadowDx">-1.0</item>
+        <item name="android:shadowDy">-1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="coverBanner.Title">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/cover_banner_title</item>
+        <item name="android:shadowColor">@color/banner_title_shadow</item>
+        <item name="android:shadowDx">-1.0</item>
+        <item name="android:shadowDy">-1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="glowy_text">
+        <item name="gradientType">eachLine</item>
+        <item name="font">RobotoBlack</item>
+        <item name="android:textColor">@color/top_preference_text</item>
+        <item name="bottomColor">@color/bottom_preference_text</item>
+     </style>
+    <style name="ownershipBanner"/>
+    <style name="ownershipBanner.large">
+        <item name="android:textSize">@dimen/ownership_text_size_large</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/ownership_banner_text</item>
+
+    </style>
+    <style name="ownershipBanner.med">
+        <item name="android:textSize">@dimen/ownership_text_size_med</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/ownership_banner_text</item>
+    </style>
+    <style name="ownershipBanner.small">
+        <item name="android:textSize">@dimen/ownership_text_size_small</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/ownership_banner_text</item>
+    </style>
+    <style name="tombstoneText">
+        <item name="android:textSize">12.75sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/tombstone_text</item>
+    </style>
+</resources>
